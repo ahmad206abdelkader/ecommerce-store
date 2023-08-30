@@ -23,6 +23,8 @@ const Currency: React.FC<CurrencyProps> = ({
     if(!isMounted) {
         return null;
     }
+
+    
     return (
         <div className="font-semibold">
             {formatter.format(Number(value))}
